@@ -1,0 +1,29 @@
+{
+  "name": "davidnadejdin/alfabank-laravel",
+  "description": "Laravel facade for alfabank api client",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "davidnadejdin",
+      "email": "davidnadejdin@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Davidnadejdin\\LaravelAlfabank\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "~8.0",
+    "davidnadejdin/alfabank-php-client": "dev-main"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Davidnadejdin\\LaravelAlfabank\\AlfabankServiceProvider"
+      ]
+    }
+  }
+}
