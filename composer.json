@@ -14,10 +14,10 @@
       "Davidnadejdin\\LaravelAlfabank\\": "src/"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
-    "laravel/framework": "~7.0|~8.0",
-    "davidnadejdin/alfabank-php-client": "dev-main"
+    "laravel/framework": "~5.0|~6.0|~7.0|~8.0",
+    "davidnadejdin/alfabank-php-client": "^1"
   },
   "extra": {
     "laravel": {
